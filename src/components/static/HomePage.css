@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.home-page {
+    min-height: 100vh; /* Ensure the page takes up at least the height of the viewport */
+  }
+  
+  /* Styles for the NavBar */
+  .navbar {
+    padding: 10px;
+  }
+  
+  /* Styles for the side-cards container */
+  .side-cards {
+    display: flex;
+    flex: 1; /* Fill remaining vertical space */
+  }
+  
+  /* Styles for the container holding the cards */
+  .container {
+    flex: 1; /* Fill remaining horizontal space */
+    flex-wrap: wrap;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-around; /* Adjust card spacing */
+    align-items: center;
+  }
+  
+  /* Styles for the Cards */
+  .card {
+    width: 200px; /* Example width, adjust as needed */
+    padding: 20px;
+    margin: 20px; /* Adjust card spacing */
+  }
+  
+  /* Styles for the Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+  

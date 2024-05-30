@@ -1,0 +1,35 @@
+.sidebar {
+    width: 200px;
+    background-color: rgb(240, 238, 238);
+    border: 1px solid rgb(136, 136, 136);
+    border-top: 0;
+    padding: 20px;
+
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .submenu {
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .submenu li {
+    border-bottom: none;
+    list-style-type: none;
+  }
+  
+  /* Show submenu when parent is clicked */
+  li:hover .submenu {
+    display: block;
+  }
+  

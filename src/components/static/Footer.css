@@ -1,0 +1,43 @@
+.footer {
+    background-color: rgb(215, 210, 210);
+    border: 1px solid rgb(136, 136, 136);
+    backface-visibility: visible;
+    padding: 20px;
+    z-index: 100;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-about p {
+    margin: 0;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .footer-contact h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    text-align: justify;
+  }
+  
